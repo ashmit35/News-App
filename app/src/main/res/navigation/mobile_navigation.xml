@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navigationdrawer.ui.aajtak.HomeFragment"
+        android:label="Aaj Tak"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navigationdrawer.ui.NDTV.GalleryFragment"
+        android:label="NDTV"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navigationdrawer.ui.ABP.SlideshowFragment"
+        android:label="ABP News"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/zee"
+        android:name="com.example.navigationdrawer.Fragments.ZeeNews"
+        android:label="Zee News"
+        tools:layout="@layout/fragment_zee_news" />
+    <fragment
+        android:id="@+id/cnbc"
+        android:name="com.example.navigationdrawer.Fragments.CNBC"
+        android:label="CNBC News"
+        tools:layout="@layout/fragment_c_n_b_c" />
+    <fragment
+        android:id="@+id/economictimes"
+        android:name="com.example.navigationdrawer.Fragments.EconomicTimes"
+        android:label="Economic Times"
+        tools:layout="@layout/fragment_economic_times" />
+    <fragment
+        android:id="@+id/toi"
+        android:name="com.example.navigationdrawer.Fragments.TimesOfIndia"
+        android:label="THE TIMES OF INDIA"
+        tools:layout="@layout/fragment_times_of_india" />
+</navigation>
